@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import First from "./routes/first"
+import First from "./routes/First"
 import Private from "./routes/Private"
 import LandingPage from "./pages/landing/LandingPage"
 import ErrorPage from "./components/ErrorPage"
