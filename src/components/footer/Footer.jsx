@@ -1,3 +1,5 @@
+import React from 'react'
+import "../footer/Footer.css"
 import {
   FaMapMarkerAlt,
   FaEnvelope,
@@ -8,11 +10,11 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa"
-import "./Footer.css"
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <div>
+       <footer className="footer">
       <div className="footer-container">
         <div className="footer-columns">
           <div className="footer-column">
@@ -114,8 +116,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
-    </footer>
+        </div>
+        </footer>
+    </div>
   )
 }
 
