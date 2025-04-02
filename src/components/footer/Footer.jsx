@@ -105,7 +105,7 @@ const Footer = () => {
             <a href="#">
               <FaTwitter />
             </a>
-            <a href="#">
+            <a>
               <FaLinkedin />
             </a>
             <a href="#">
