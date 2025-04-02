@@ -10,7 +10,6 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa"
-
 const Footer = () => {
   return (
     <div>
@@ -21,19 +20,19 @@ const Footer = () => {
             <h3 className="footer-heading">Quick links</h3>
             <ul className="footer-links">
               <li>
-                <a href="#">Home</a>
+                <a>Home</a>
               </li>
               <li>
-                <a href="#">About us</a>
+                <a>About us</a>
               </li>
               <li>
-                <a href="#">Explore Categories</a>
+                <a>Explore Categories</a>
               </li>
               <li>
-                <a href="#">Event Categories</a>
+                <a>Event Categories</a>
               </li>
               <li>
-                <a href="#">Subscription plan</a>
+                <a>Subscription plan</a>
               </li>
             </ul>
           </div>
@@ -41,19 +40,19 @@ const Footer = () => {
             <h3 className="footer-heading">Support</h3>
             <ul className="footer-links">
               <li>
-                <a href="#">Account</a>
+                <a>Account</a>
               </li>
               <li>
-                <a href="#">Faq</a>
+                <a>Faq</a>
               </li>
               <li>
-                <a href="#">Legal</a>
+                <a>Legal</a>
               </li>
               <li>
-                <a href="#">Privacy policy</a>
+                <a>Privacy policy</a>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <a>Contact us</a>
               </li>
             </ul>
           </div>
@@ -61,19 +60,19 @@ const Footer = () => {
             <h3 className="footer-heading">Others</h3>
             <ul className="footer-links">
               <li>
-                <a href="#">Partners</a>
+                <a>Partners</a>
               </li>
               <li>
-                <a href="#">Community program</a>
+                <a>Community program</a>
               </li>
               <li>
-                <a href="#">conferences</a>
+                <a>conferences</a>
               </li>
               <li>
-                <a href="#">affiliate program</a>
+                <a>affiliate program</a>
               </li>
               <li>
-                <a href="#">Subscription plan</a>
+                <a>Subscription plan</a>
               </li>
             </ul>
           </div>
@@ -102,16 +101,16 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="footer-copyright">© 2024 SchedTrix, Inc. All rights reserved.</p>
           <div className="footer-social">
-            <a href="#">
+            <a>
               <FaTwitter />
             </a>
-            <a href="#">
+            <a>
               <FaLinkedin />
             </a>
-            <a href="#">
+            <a>
               <FaFacebook />
             </a>
-            <a href="#">
+            <a>
               <FaInstagram />
             </a>
           </div>
