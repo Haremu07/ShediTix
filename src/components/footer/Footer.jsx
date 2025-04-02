@@ -93,7 +93,7 @@ const Footer = () => {
               </li>
               <li>
                 <FaClock className="footer-icon" />
-                <span>Office hours: 24hrs, Monday-Sunday</span>
+                <span>Office hours: 24hrs, Monday - Sunday</span>
               </li>
             </ul>
           </div>
