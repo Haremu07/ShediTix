@@ -1,21 +1,23 @@
 import React from 'react'
-import "./EventCategories.css"
+import "./ExploreCategory.css"
 import { MdLocationOn } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 
 
-const FeatureComp = () => {
+const ExploreFetures = () => {
   return (
-    <div className='featureCamp'>
-        <nav className='paddingBox'>
-            <p><b>Feature Event</b></p>
-            <div className='cardMainBox'>
-            <section className='FeturesCards'>
-              <div className='imageBox'>
-                 <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
+    <div className='exploreFeatureMain'>
+        <nav className='explorePaddingBox'>
+          <div>
+        <p><b>Feature Event</b></p>
+        </div>
+        <section className='exploreCardBox'>
+        <section className='exploreFeturesCards'>
+              <section className='exploreimageBox'>
+              <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
                 <img src="" alt="" />
-              </div>
-              <nav className='cardFirsBox'>
+              </section>
+              <nav className='elpoerecardFirsBox'>
                 <h1>CONVERGENE OF <br />STARS</h1>
                 <div>
                   <p><b>21st</b></p>
@@ -23,12 +25,12 @@ const FeatureComp = () => {
                   <p><b>2025</b></p>
                 </div>
               </nav>
-              <nav className='cardSecondBox'>
+              <nav className='explorecardSecondBox'>
                 <p>This is the 4th edition of the biggest community</p>
                 <p>award ceremony in Africa</p>
               </nav>
-              <nav className='address'>
-                <MdLocationOn style={{fontSize:"20px"}}/>
+              <nav className='exploreaddress'>
+              <MdLocationOn style={{fontSize:"20px"}}/>
                 <p>Eko Hotel and Suites</p>
               </nav>
               <nav className='cardThirdBox'>
@@ -39,12 +41,12 @@ const FeatureComp = () => {
               </nav>
             </section>
 
-            <section className='FeturesCards'>
-              <div className='imageBox'>
-                 <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
+            <section className='exploreFeturesCards'>
+              <section className='exploreimageBox'>
+              <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
                 <img src="" alt="" />
-              </div>
-              <nav className='cardFirsBox'>
+              </section>
+              <nav className='elpoerecardFirsBox'>
                 <h1>CONVERGENE OF <br />STARS</h1>
                 <div>
                   <p><b>21st</b></p>
@@ -52,12 +54,12 @@ const FeatureComp = () => {
                   <p><b>2025</b></p>
                 </div>
               </nav>
-              <nav className='cardSecondBox'>
+              <nav className='explorecardSecondBox'>
                 <p>This is the 4th edition of the biggest community</p>
                 <p>award ceremony in Africa</p>
               </nav>
-              <nav className='address'>
-                <MdLocationOn style={{fontSize:"20px"}}/>
+              <nav className='exploreaddress'>
+              <MdLocationOn style={{fontSize:"20px"}}/>
                 <p>Eko Hotel and Suites</p>
               </nav>
               <nav className='cardThirdBox'>
@@ -68,12 +70,12 @@ const FeatureComp = () => {
               </nav>
             </section>
 
-            <section className='FeturesCards'>
-              <div className='imageBox'>
-                 <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
+            <section className='exploreFeturesCards'>
+              <section className='exploreimageBox'>
+              <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
                 <img src="" alt="" />
-              </div>
-              <nav className='cardFirsBox'>
+              </section>
+              <nav className='elpoerecardFirsBox'>
                 <h1>CONVERGENE OF <br />STARS</h1>
                 <div>
                   <p><b>21st</b></p>
@@ -81,12 +83,12 @@ const FeatureComp = () => {
                   <p><b>2025</b></p>
                 </div>
               </nav>
-              <nav className='cardSecondBox'>
+              <nav className='explorecardSecondBox'>
                 <p>This is the 4th edition of the biggest community</p>
                 <p>award ceremony in Africa</p>
               </nav>
-              <nav className='address'>
-                <MdLocationOn style={{fontSize:"20px"}}/>
+              <nav className='exploreaddress'>
+              <MdLocationOn style={{fontSize:"20px"}}/>
                 <p>Eko Hotel and Suites</p>
               </nav>
               <nav className='cardThirdBox'>
@@ -97,12 +99,12 @@ const FeatureComp = () => {
               </nav>
             </section>
 
-            <section className='FeturesCards'>
-              <div className='imageBox'>
-                 <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
+            <section className='exploreFeturesCards'>
+              <section className='exploreimageBox'>
+              <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
                 <img src="" alt="" />
-              </div>
-              <nav className='cardFirsBox'>
+              </section>
+              <nav className='elpoerecardFirsBox'>
                 <h1>CONVERGENE OF <br />STARS</h1>
                 <div>
                   <p><b>21st</b></p>
@@ -110,12 +112,12 @@ const FeatureComp = () => {
                   <p><b>2025</b></p>
                 </div>
               </nav>
-              <nav className='cardSecondBox'>
+              <nav className='explorecardSecondBox'>
                 <p>This is the 4th edition of the biggest community</p>
                 <p>award ceremony in Africa</p>
               </nav>
-              <nav className='address'>
-                <MdLocationOn style={{fontSize:"20px"}}/>
+              <nav className='exploreaddress'>
+              <MdLocationOn style={{fontSize:"20px"}}/>
                 <p>Eko Hotel and Suites</p>
               </nav>
               <nav className='cardThirdBox'>
@@ -126,12 +128,12 @@ const FeatureComp = () => {
               </nav>
             </section>
 
-            <section className='FeturesCards'>
-              <div className='imageBox'>
-                 <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
+            <section className='exploreFeturesCards'>
+              <section className='exploreimageBox'>
+              <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
                 <img src="" alt="" />
-              </div>
-              <nav className='cardFirsBox'>
+              </section>
+              <nav className='elpoerecardFirsBox'>
                 <h1>CONVERGENE OF <br />STARS</h1>
                 <div>
                   <p><b>21st</b></p>
@@ -139,12 +141,12 @@ const FeatureComp = () => {
                   <p><b>2025</b></p>
                 </div>
               </nav>
-              <nav className='cardSecondBox'>
+              <nav className='explorecardSecondBox'>
                 <p>This is the 4th edition of the biggest community</p>
                 <p>award ceremony in Africa</p>
               </nav>
-              <nav className='address'>
-                <MdLocationOn style={{fontSize:"20px"}}/>
+              <nav className='exploreaddress'>
+              <MdLocationOn style={{fontSize:"20px"}}/>
                 <p>Eko Hotel and Suites</p>
               </nav>
               <nav className='cardThirdBox'>
@@ -155,12 +157,12 @@ const FeatureComp = () => {
               </nav>
             </section>
 
-            <section className='FeturesCards'>
-              <div className='imageBox'>
-                 <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
+            <section className='exploreFeturesCards'>
+              <section className='exploreimageBox'>
+              <CiHeart style={{fontSize:"20px", margin:"15px"}}/>
                 <img src="" alt="" />
-              </div>
-              <nav className='cardFirsBox'>
+              </section>
+              <nav className='elpoerecardFirsBox'>
                 <h1>CONVERGENE OF <br />STARS</h1>
                 <div>
                   <p><b>21st</b></p>
@@ -168,12 +170,12 @@ const FeatureComp = () => {
                   <p><b>2025</b></p>
                 </div>
               </nav>
-              <nav className='cardSecondBox'>
+              <nav className='explorecardSecondBox'>
                 <p>This is the 4th edition of the biggest community</p>
                 <p>award ceremony in Africa</p>
               </nav>
-              <nav className='address'>
-                <MdLocationOn style={{fontSize:"20px"}}/>
+              <nav className='exploreaddress'>
+              <MdLocationOn style={{fontSize:"20px"}}/>
                 <p>Eko Hotel and Suites</p>
               </nav>
               <nav className='cardThirdBox'>
@@ -183,12 +185,12 @@ const FeatureComp = () => {
                 </span>
               </nav>
             </section>
-
-            
-            </div>
+        
+        
+        </section>
         </nav>
     </div>
   )
 }
 
-export default FeatureComp
+export default ExploreFetures
