@@ -1,7 +1,8 @@
 import React from 'react'
 import "./EventCategories.css"
 import EventForYou from './EventForYou'
-// import FeatureComp from './FeatureComp'
+import StayinLoop from './StayinLoop'
+import FeatureComp from './FeatureComp'
 
 // const CardDetaisl = [
 //   {
@@ -33,7 +34,7 @@ const EventCategories = () => {
       <div className='LandingPageEventCategories'>
         <nav className='middleBoxEventCategories'>
           <section className='middleTop'>
-            <h1>Shows</h1>
+            <h4>Shows</h4>
             <div style={{width:"20px", height:"3px", backgroundColor:"black", borderRadius:"5px" }}></div>
             <h1 style={{color:"#271b6b"}}>Comedy Show</h1>
           </section>
@@ -116,8 +117,9 @@ const EventCategories = () => {
         </nav>
       </div>
       <div style={{width:"100%", height:"10vh", backgroundColor:"#edecf4"}}></div>
-     {/* <FeatureComp/> */}
+     <FeatureComp/>
      <EventForYou/>
+     <StayinLoop/>
     </div>
   )
 }
