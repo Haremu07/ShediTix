@@ -18,7 +18,7 @@ const ResetPassword = () => {
         <div className="ResetPassword-form">
         <span className="Back" onClick={() => navigate("/email-verification")}><FaArrowLeft/><p>go back</p></span>
           <div className="ResetPassword-form-Header">
-          <h2 style={{color: "#5a4e9c"}}>ShediTix</h2>
+          <h2 style={{color: "#5a4e9c"}}>SchediTix</h2>
           <h2>Set your new password</h2>
           <p>Choose a strong password to secure your account</p>
           </div>
