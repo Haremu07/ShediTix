@@ -13,7 +13,7 @@ import Verify from "./pages/verification/Verify"
 import ResetPassword from "./pages/resetPassword/ResetPassword"
 import PasswordResetSuccessful from "./pages/passwordResetSuccessful/PasswordResetSuccessfull"
 // import UserTicketPurchace from "./pages/userTicketPurchase/UserTicketPurchace"
-import UserTicketDetails from "./pages/userTicketDetails/UserTicketDetails"
+// import UserTicketDetails from "./pages/userTicketDetails/UserTicketDetails"
 import TicketDetailsAfterPurchase from "./pages/ticketDetailsAfterPurchase/TicketDetailsAfterPurchase"
 import CheckIn from "./pages/dashboard/checkIn/CheckIn"
 import CreateEvent from "./pages/dashboard/createEvent/CreateEvent"
@@ -26,6 +26,7 @@ import TicketSales from "./pages/dashboard/ticketSales/TicketSales"
 import SignIn from "./pages/auth/sigin/SignIn"
 import SignUp from "./pages/auth/signup/SignUp"
 import TicketPurchaseUser from "./pages/userTicketPurchase/TicketPurchaseUser"
+import TicketDrtails from "./pages/userTicketDetails/TicketDetails"
 
 const App = () => {
 
@@ -66,7 +67,7 @@ const App = () => {
         {
           path: "user-ticket-details" ,
           errorElement: <ErrorPage/>,
-          element: <UserTicketDetails/>
+          element: <TicketDrtails/>
         },
         {
           path: "ticket-details-after-purchase" ,
