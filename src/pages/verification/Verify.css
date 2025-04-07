@@ -71,7 +71,7 @@
 
 .email-verification-form2{
     width: 600.56px;
-    height: 350px;
+    height: 420px;
     /* background-color: gray; */
     display: flex;
     flex-direction: column;
@@ -113,6 +113,7 @@
     height: max-content;
     display: flex;
     gap: 21px;
+    /* background-color: green; */
     flex-direction: column;
     box-shadow: none;
     border-radius: none;
@@ -172,8 +173,16 @@
     font-size: 20px;
 }
 
+
+.resend1{
+    color: #27187e;
+}
 .resend{
     color: #27187e;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .CodeBox{

@@ -3,6 +3,7 @@ import { FaUser } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
 import { GiDialPadlock } from "react-icons/gi";
+import { FaArrowLeft } from "react-icons/fa6";
 import {  useNavigate } from "react-router";
 
 
@@ -11,15 +12,20 @@ const SignIn = () => {
   return (
     <div className="signin-container">
       <div className="signIn-Nav">
-        <div className="signIn-Nav-Box">
+      <div className="signIn-Nav-Header">
+          <div className="LogoBox">
+          <img  className="Logo" src="../../../../public/images/orangelogo.png" alt="" onClick={() => navigate("/")} />
+          </div>
+          <div className="signIn-Nav-Box">
         <div className="navBoxs1"></div>
         <div className="navBoxs2"></div>
+        </div>
         </div>
       </div>
       <div className="signin-body">
         <div className="signin-form">
+             <span className="Back" onClick={() => navigate("/")}><FaArrowLeft/><p>go back</p></span>
           <div className="sigin-form-Header">
-          <h2 style={{color: "#5a4e9c"}}>SchediTix</h2>
           <h2 >Unlock Your Event Access</h2>
           </div>
           <form className="form">

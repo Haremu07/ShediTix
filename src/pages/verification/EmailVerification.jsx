@@ -17,7 +17,8 @@ const Verify = () => {
         <div className="email-verification-form2">
         <span className="Back" onClick={() => navigate("/forget-password")}><FaArrowLeft/><p>go back</p></span>
           <div className="email-verification-form-Header">
-          <h2 style={{color: "#5a4e9c"}}>SchediTix</h2>
+          {/* <h2 style={{color: "#5a4e9c"}}>SchediTix</h2> */}
+          <img  src="../../../../public/images/logo (1).png" alt="" onClick={() => navigate("/")} />
           <h2>Welcome to ShediTix!</h2>
           </div>
           <form className="form">
@@ -25,13 +26,13 @@ const Verify = () => {
                You’re officially part of the SchediTix family! 
                🙌 We’re so excited to help you create, manage, and promote amazing events.</p> 
 
-           <p className="Passage2">Before you dive in, we just need you to <span className="resend">verify
+           <p className="Passage2">Before you dive in, we just need you to <span className="resend1">verify
              your email</span>  to activate your account. It’s super
               quick, just click the button below and you’re 
               good to go! 🥰</p>
 
            <div className="CodeBox">
-           <p> <span className="resend" onClick={() => navigate("/login")}>Skip</span>  </p>
+           <p> <button className="resend" onClick={() => navigate("/login")}>Verify your email</button>  </p>
            </div>
           </form>
         </div>
