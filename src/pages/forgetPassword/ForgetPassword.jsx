@@ -9,16 +9,20 @@ const ForgetPassword = () => {
   return (
     <div className="ForgetPassword-container">
       <div className="Nav">
-        <div className="Nav-Box">
+      <div className="signIn-Nav-Header">
+          <div className="LogoBox">
+          <img  className="Logo" src="../../../../public/images/orangelogo.png" alt="" onClick={() => navigate("/")} />
+          </div>
+          <div className="signIn-Nav-Box">
         <div className="navBoxs1"></div>
         <div className="navBoxs2"></div>
+        </div>
         </div>
       </div>
       <div className="ForgetPassword-body">
         <div className="ForgetPassword-form">
-        <span className="Back" onClick={() => navigate("/login")}><FaArrowLeft/><p>go back</p></span>
           <div className="ForgetPassword-form-Header">
-          <h2 style={{color: "#5a4e9c"}}>ShediTix</h2>
+        <span className="Back" onClick={() => navigate("/login")}><FaArrowLeft/><p>go back</p></span>
           <h2 >Forgot your password?</h2>
           </div>
           <form className="form">

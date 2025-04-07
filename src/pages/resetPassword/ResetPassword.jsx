@@ -9,16 +9,20 @@ const ResetPassword = () => {
   return (
     <div className="ResetPassword-container">
       <div className="Nav">
-        <div className="Nav-Box">
+      <div className="signIn-Nav-Header">
+          <div className="LogoBox">
+          <img  className="Logo" src="../../../../public/images/orangelogo.png" alt="" onClick={() => navigate("/")} />
+          </div>
+          <div className="signIn-Nav-Box">
         <div className="navBoxs1"></div>
         <div className="navBoxs2"></div>
+        </div>
         </div>
       </div>
       <div className="ResetPassword-body">
         <div className="ResetPassword-form">
-        <span className="Back" onClick={() => navigate("/email-verification")}><FaArrowLeft/><p>go back</p></span>
           <div className="ResetPassword-form-Header">
-          <h2 style={{color: "#5a4e9c"}}>SchediTix</h2>
+        <span className="Back" onClick={() => navigate("/reset-password")}><FaArrowLeft/><p>go back</p></span>
           <h2>Set your new password</h2>
           <p>Choose a strong password to secure your account</p>
           </div>

@@ -5,6 +5,7 @@ import { BsTicketPerforatedFill } from "react-icons/bs";
 import { GrServerCluster } from "react-icons/gr";
 import { FaListAlt } from "react-icons/fa";
 import Cards from "./Cards";
+import Card2 from "./Card2";
 
 const LandingPage = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -13,14 +14,18 @@ const LandingPage = () => {
 
   const slides = [
     {
-      Image: "https://www.brides.com/thmb/ija6ik1y_1T1AnwH8AU5FXOPOh0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/must-take-wedding-photos-accessory-details-erich-mcvey-0723-37f2718300b94a8d802a5c3bc456e739.jpg"
+      Image: "../../../public/images/Hero carousel.png"
   },
     {
-      Image: "https://www.bellanaijaweddings.com/wp-content/uploads/2023/07/Beauty-Victory-Prewedding-Shoot-BellaNaija-Weddings09-scaled.jpg"
+      Image: "../../../public/images/Property 1=happy-romantic-couple-hugging-summer-field 7 (1).png"
   },
     {
-      Image: "https://www.bellanaijaweddings.com/wp-content/uploads/2023/07/Beauty-Victory-Prewedding-Shoot-BellaNaija-Weddings08-scaled.jpg"
+      Image: "../../../public/images/Property 1=happy-romantic-couple-hugging-summer-field 8.jpg"
   },
+    {
+      Image: "../../../public/images/Property 1=happy-romantic-couple-hugging-summer-field 9.jpg"
+  },
+    
 ];
 
 const slides2 = [
@@ -117,6 +122,7 @@ useEffect(() => {
       <div className="TrendingEventBlock">
           <div className="TrendingEventBlockHeader">
             <h1>Trending Events</h1>
+            <img src="../../../public/images/Vector.png" alt="" />
           </div>
           <div className="TrendingEventBlockScroll">
             <Cards img="https://www.astro.com/im/in/sr_cosmic_sky.jpg" text1="CONVERGENCE OF STARS" Date="21st December, 2025" content="This is the 4th edition of the biggest community awards ceremony in Africa." Location="Eko Hotel and Suites" Price="2,000"/>
@@ -129,6 +135,27 @@ useEffect(() => {
             <Cards img="https://www.astro.com/im/in/sr_cosmic_sky.jpg" text1="CONVERGENCE OF STARS" Date="21st September, 2025" content="This is the 4th edition of te biggest community awards ceremony in Africa." Location="Eko Hotel and Suites" Price="20,000"/>
      
           </div>
+        </div>
+
+        <div className="FeaturedEventBlocked">
+            <div className="FeaturedEventBlockedHeader">
+              <h1>Featured Events</h1>
+            <img src="../../../public/images/Vector.png" alt="" />
+            </div>
+            <div className="FeaturedEventBlockedBody">
+              <Card2 text="Kora Hack2.0 - Redesigni..." content="A 14-day hackathon to build  ideas that are breaking boundaries 
+              in how we pay, buy, and sell in emerging markets. KoraHACK 2.0 is sponsored by Kora, 
+              a pan-African payment gateway." image="../../../public/images/Frame 236 (1).png"/>
+              <Card2 text="Genz Tech Fest 2024" content="We are GenZtechies, where Gen-Z developers,
+               founders, designers, and techies can connect, learn, 
+               and discover life-changing opportunities." image="../../../public/images/fusion 236.png"/>
+              <Card2 text="Lagos Tech Fest" content="Now in its 5th year, Lagos Tech Fest gathers startups, innovators, 
+              investors, and government representatives to shape Nigeria's tech future through conferences,
+               exhibitions, networking....." image="../../../public/images/TechFrame 236.png"/>
+              <Card2 text="Adanian Labs Africa merges with ImpalaPay" content="A Pan African Venture Studio Actuating the 
+              Tech Revolution for a Borderless Africa. Unleash the full potential of your business with our groundbreaking ..." 
+              image="../../../public/images/Frame 236 (1).png"/>
+            </div>
         </div>
     </div>
   )
