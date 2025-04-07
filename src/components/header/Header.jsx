@@ -1,5 +1,5 @@
 import React from 'react';
-import '../header/Header.css';
+import '../header/header.css';
 import {FiSearch } from 'react-icons/fi';
 import { useNavigate } from 'react-router';
 

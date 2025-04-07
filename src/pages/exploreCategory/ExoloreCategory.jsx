@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ExploreCategory.css"
+import "./exploreCategory.css"
 import ExploreFetures from './ExploreFetures'
 
 const ExoloreCategory = () => {

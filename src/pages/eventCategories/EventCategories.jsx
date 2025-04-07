@@ -1,5 +1,5 @@
 import React from 'react'
-import "./EventCategories.css"
+import "./eventCategories.css"
 import EventForYou from './EventForYou'
 import StayinLoop from './StayinLoop'
 import FeatureComp from './FeatureComp'

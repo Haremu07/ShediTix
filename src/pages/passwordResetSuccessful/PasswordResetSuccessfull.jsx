@@ -1,4 +1,4 @@
-import "./ResetSuccessfull.css"
+import "./resetSuccessfull.css"
 import { FaArrowLeft } from "react-icons/fa6";
 import { useNavigate } from "react-router";
 

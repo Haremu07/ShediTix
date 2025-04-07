@@ -1,5 +1,5 @@
 import React from 'react'
-import "./EventCategories.css"
+import "./eventCategories.css"
 
 const StayinLoop = () => {
   return (

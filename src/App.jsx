@@ -24,7 +24,7 @@ import TicketSales from "./pages/dashboard/ticketSales/TicketSales"
 import SignIn from "./pages/auth/sigin/SignIn"
 import SignUp from "./pages/auth/signup/SignUp"
 import TicketPurchaseUser from "./pages/userTicketPurchase/TicketPurchaseUser"
-import TicketDrtails from "./pages/userTicketDetails/TicketDetails"
+import TicketDetails from "./pages/userTicketDetails/TicketDetails"
 
 const App = () => {
 
@@ -65,7 +65,7 @@ const App = () => {
         {
           path: "user-ticket-details" ,
           errorElement: <ErrorPage/>,
-          element: <TicketDrtails/>
+          element: <TicketDetails/>
         },
         {
           path: "ticket-details-after-purchase" ,

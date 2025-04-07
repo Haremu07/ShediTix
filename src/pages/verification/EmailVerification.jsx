@@ -1,4 +1,4 @@
-import "./Verify.css"
+import "./verify.css"
 import { useNavigate } from "react-router";
 import { FaArrowLeft } from "react-icons/fa6";
 

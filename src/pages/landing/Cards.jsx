@@ -1,4 +1,4 @@
-import "./Cards.css"
+import "./cards.css"
 import { IoLocationSharp } from "react-icons/io5";
 
 const Cards = (props) => {

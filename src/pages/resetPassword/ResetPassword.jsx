@@ -1,4 +1,4 @@
-import "./ResetPassword.css"
+import "./resetPassword.css"
 import { GiDialPadlock } from "react-icons/gi";
 import { useNavigate } from "react-router";
 import { FaArrowLeft } from "react-icons/fa6";

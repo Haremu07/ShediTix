@@ -1,5 +1,5 @@
 import React from 'react'
-import "./EventCategories.css"
+import "./eventCategories.css"
 import { MdLocationOn } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 

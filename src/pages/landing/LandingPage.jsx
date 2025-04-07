@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import "./LandingPage.css"
+import "./landingPage.css"
 import { TbTargetArrow } from "react-icons/tb";
 import { BsTicketPerforatedFill } from "react-icons/bs";
 import { GrServerCluster } from "react-icons/gr";
