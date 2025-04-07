@@ -17,7 +17,7 @@ const Verify = () => {
         <div className="email-verification-form2">
         <span className="Back" onClick={() => navigate("/forget-password")}><FaArrowLeft/><p>go back</p></span>
           <div className="email-verification-form-Header">
-          <h2 style={{color: "#5a4e9c"}}>ShediTix</h2>
+          <h2 style={{color: "#5a4e9c"}}>SchediTix</h2>
           <h2>Welcome to ShediTix!</h2>
           </div>
           <form className="form">

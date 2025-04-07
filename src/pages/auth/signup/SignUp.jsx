@@ -19,7 +19,7 @@ const SignIn = () => {
       <div className="signin-body">
         <div className="signin-form">
           <div className="sigin-form-Header">
-          <h2 style={{color: "#5a4e9c"}}>ShediTix</h2>
+          <h2 style={{color: "#5a4e9c"}}>SchediTix</h2>
           <h2 >Unlock Your Event Access</h2>
           </div>
           <form className="form">

@@ -1,40 +1,33 @@
-import React from 'react'
-import "../header/Header.css"
-import { FiHeart, FiSearch } from "react-icons/fi";
+import React from 'react';
+import '../header/Header.css';
+import {FiSearch } from 'react-icons/fi';
 
 const Header = () => {
   return (
-    <div>
-        <header>
-      <div>
-        <p>
-          <img src="../" alt="" />
-        </p>
+    <header className="header">
+      <div className="header-container">
+        <a href="/" className="logo-link">
+          <span className="logo-text">ScheduTix</span>
+        </a>
 
-        <nav>
-          <p>Event Categories</p>
+        <nav className="nav">
+          <a href="/categories" className="nav-link">
+            Event Categories
+          </a>
         </nav>
 
-        <div>
-          <input
-            type="text"
-            placeholder="Search events (Tech,Comedy,Concerts)"
-          />
-          <FiSearch />
+        <div className="search-box">
+          <input type="text" placeholder="Search events (tech,comedy,concerts...)" />
+          <FiSearch className="search-icon" />
         </div>
 
-        <div>
-          <button>
-            <FiHeart />
-          </button>
-          <button>Sign In</button>
-          <button>Sign Up</button>
+        <div className="actions">
+          <button className="auth-button">Sign In</button>
+          <button className="auth-button">Sign Up</button>
         </div>
       </div>
     </header>
+  );
+};
 
-    </div>
-  )
-}
-
-export default Header
+export default Header;
