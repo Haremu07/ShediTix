@@ -1,4 +1,4 @@
-import "./cards"
+import "./cards.css"
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Card2 = (props) => {
