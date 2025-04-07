@@ -1,17 +1,16 @@
 import React from 'react';
 import '../header/Header.css';
 import {FiSearch } from 'react-icons/fi';
+import { useNavigate } from 'react-router';
 
 const Header = () => {
+ const  navigate = useNavigate();
   return (
     <header className="header">
       <div className="header-container">
-        <a href="/" className="logo-link">
-          <span className="logo-text">SchediTixcccc</span>
-        </a>
-
+          <img className="logo-link"src="../../../public/images/orangelogo.png" alt="" onClick={() => navigate("/")} />
         <nav className="nav">
-          <a href="/categories" className="nav-link">
+          <a href="/event-categories" className="nav-link">
             Event Categories
           </a>
         </nav>
@@ -22,8 +21,12 @@ const Header = () => {
         </div>
 
         <div className="actions">
-          <button className="auth-button">Sign In</button>
-          <button className="auth-button">Sign Up</button>
+          <button className="auth-button" 
+          onClick={() => navigate("/login")}
+          >Sign In</button>
+          <button className="auth-button" 
+          onClick={() => navigate("/register")}
+          >Sign Up</button>
         </div>
       </div>
     </header>

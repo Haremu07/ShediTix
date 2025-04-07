@@ -26,10 +26,10 @@
 
 /* Logo */
 .logo-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  gap: 8px;
+  width: 18%;
+  height: 80%;
+  object-fit: contain;
+  cursor: pointer;
 }
 
 .logo-text {
