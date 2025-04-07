@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <a href="/" className="logo-link">
-          <span className="logo-text">SchediTix</span>
+          <span className="logo-text">SchediTixcccc</span>
         </a>
 
         <nav className="nav">
